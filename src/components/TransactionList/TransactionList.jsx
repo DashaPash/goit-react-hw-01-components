@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import TransactionItem from './TransactionItem';
+import TransactionItem from './TransactionItem/TransactionItem';
 import s from './TransactionList.module.css';
 
 export default function TransactionList({ transactions }) {
